@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
 import matplotlib.pyplot as plt
 import torch as torch
 from itertools import combinations 
@@ -531,17 +528,6 @@ for hhh in sim:
 #         filename2 = "/home/vaishnavi/multiple_opt/normal/nPair{}Testnmu8.pt".format(s)
 #         torch.save(mu,filename2)
 
-
-# In[ ]:
-
-
-import torch as torch
-filename = "/home/vaishnavi/multiple_opt/adam/nPair20Testnweights2.pt"
-ex = torch.load(filename)
-ex
-
-
-# In[ ]:
 
 
 
